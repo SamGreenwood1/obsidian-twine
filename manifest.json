@@ -1,0 +1,21 @@
+{
+    "id": "twine-plugin",
+    "name": "Twine Plugin",
+    "version": "0.0.1",
+    "minAppVersion": "0.9.15",
+    "description": "A plugin to support Twine projects in Obsidian.",
+    "author": "Sam Greenwood",
+    "authorUrl": "https://samgreenwood.ca",
+    "fundingUrl": "https://your-funding-page.com",
+    "main": "main.js",
+    "settings": {
+        "twineExecutablePath": {
+            "type": "string",
+            "default": ""
+        }
+    },
+    "settingsTab": {
+        "name": "Twine",
+        "description": "Configure the Twine plugin settings."
+    }
+}
